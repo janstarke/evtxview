@@ -1,6 +1,7 @@
 import typing
 
 import sys
+from pathlib import Path
 
 from PyQt5 import uic
 from PyQt5.QtWidgets import *
@@ -173,7 +174,7 @@ class MainWindow(QMainWindow):
             index = self.__files[filename]
         else:
             new_tab = QWidget()
-            index = self.__tab_widget.addTab(new_tab, filename)
+            index = self.__tab_widget.addTab(new_tab, Path(filename).name)
             layout = QVBoxLayout()
             layout.addWidget(EvtxView(filename))
             new_tab.setLayout(layout)
