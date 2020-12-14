@@ -2,6 +2,10 @@
 
 `evtxview` is a GUI viewer for Microsoft Windows evtx files (Windows event logs). I'm hacking this tiny tool because I need such a tool in most forensic investigations.
 
+## Screenshots
+
+[evtxview in action](doc/images/screenshot.png)
+
 ## Installation
 
 ```shell
