@@ -4,7 +4,7 @@
 
 ## Screenshots
 
-[evtxview in action](doc/images/screenshot.png)
+![evtxview in action](doc/images/screenshot.png)
 
 ## Installation
 
